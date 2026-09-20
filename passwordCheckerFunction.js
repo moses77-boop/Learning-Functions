@@ -1,5 +1,5 @@
 // Already have the password stored in a variable
-
+const password = "secretword123";
 // Receive the value which the user entered
 
 // Compare the two values
