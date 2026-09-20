@@ -12,5 +12,5 @@ response="Correct password entered";
 response="Incorrect password, please try again";
             }
 }
-checkPassword("secretword12");
-console.lg(response);
+checkPassword("secretword123");
+console.log(response);
