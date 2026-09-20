@@ -12,4 +12,4 @@ console.log("Correct password entered");
 console.log("Incorrect password, please try again");
             }
 }
-checkPassword("secretword123");
+checkPassword("secretword12");
