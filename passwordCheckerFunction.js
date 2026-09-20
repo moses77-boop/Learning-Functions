@@ -13,6 +13,7 @@ response="Incorrect password, please try again";
             }
             return response;
 }
-checkPassword("secretword123");
-console.log(response);
+// ;
+const toPrint ="The result was: "  + checkPassword("secretword123");
+console.log(toPrint);
 
