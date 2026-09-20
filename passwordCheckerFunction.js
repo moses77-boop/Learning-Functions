@@ -6,10 +6,10 @@ function checkPassword(userInput){
 // Compare the two values
 if (userInput === password){
 // If the match print "Correct password entered"
-response="Correct password entered";
+response = true ;
     } else {
 //  If they don't match print "Incorrect password, please try again"
-response="Incorrect password, please try again";
+response = false;
             }
             return response;
 }
