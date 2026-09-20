@@ -11,6 +11,8 @@ response="Correct password entered";
 //  If they don't match print "Incorrect password, please try again"
 response="Incorrect password, please try again";
             }
+            return response;
 }
 checkPassword("secretword123");
 console.log(response);
+
