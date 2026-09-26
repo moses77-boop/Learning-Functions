@@ -1,6 +1,6 @@
 function getRealFloor(n){
     const floor = n
-    if(floor < 0){
+    if(floor <= 0){
             return n;
     }
     if(floor <= 12){
@@ -10,4 +10,4 @@ function getRealFloor(n){
         return n - 2;
     }
 }
-console.log(getRealFloor(9))
+console.log(getRealFloor(0))
