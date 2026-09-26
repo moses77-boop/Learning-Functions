@@ -10,4 +10,4 @@ function getRealFloor(n){
         return n - 2;
     }
 }
-console.log(getRealFloor(-3))
+console.log(getRealFloor(9))
