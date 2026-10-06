@@ -10,3 +10,4 @@ const people = [
 function OrderPeople(people){
     return people.sort((property1, property2) => property1.age - property2.age);
 }
+console.log(OrderPeople(people));
