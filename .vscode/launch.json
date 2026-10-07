@@ -5,6 +5,7 @@
       "name": "Debug with Breakpoints",
       "type": "node",
       "request": "launch",
+      "runtimeExecutable": "/Users/stashme/.nvm/versions/node/v26.10.0/bin/node",
       "program": "${workspaceFolder}/convertToPercentage.js",
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
