@@ -30,5 +30,11 @@ function howManyDays(month){
         days = 30;
         break;
 
+        case 2:
+            console.log("February");
+            
+        default:
+            days = "Invalid month";
+
     }
 }
