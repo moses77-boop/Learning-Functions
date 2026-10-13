@@ -19,7 +19,16 @@ function howManyDays(month){
         days = 31;
         break;
 
-        
+        case 4:
+            console.log("April");
+        case 6:
+            console.log("June");
+        case 9:
+            console.log("September");
+        case 11:
+            console.log("November")
+        days = 30;
+        break;
 
     }
 }
